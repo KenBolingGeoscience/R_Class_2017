@@ -1,2 +1,2 @@
 # R_Class_2017
-R_class
+Projects for the course: Reproducible Data Analysis with R. 
