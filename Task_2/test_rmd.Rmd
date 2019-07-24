@@ -1,0 +1,27 @@
+---
+title: "Test notebook output"
+output: github_document
+---
+
+This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook, meant to test how github displays html generated from R Notebooks. 
+
+# Displaying plots
+
+Here's a plot.
+
+```{r}
+library(ggplot2)
+ggplot(diamonds, aes(x=x,y=y, colour=color)) + 
+  geom_point()
+```
+
+# Displaying in-line code
+Here's some text, including inline code which should be the number four: `2+2`. 
+
+# Displaying data frames
+
+Here's a data frame:
+
+```{r}
+head(diamonds)
+```
